@@ -252,7 +252,12 @@ input[type="button"]:hover,
 /* Section Style 3 */
 
 .style3 {
-	background-color: transparent;
+	/*background-color: transparent;*/
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+	background-image: url('../img/overlay.png'), url('../img/banner.jpg');
+
 }
 .style3 .section {
 	padding-bottom: 50px;
